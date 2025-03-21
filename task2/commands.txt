@@ -1,7 +1,0 @@
-colima start --cpu 2 --memory 4  
-minikube start
-minikube addons enable metrics-server
-kubectl apply -f deployment.yaml
-kubectl apply -f service.yaml
-kubectl apply -f hpa.yaml
-minikube service scaletestapp --url
