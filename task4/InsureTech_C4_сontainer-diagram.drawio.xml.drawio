@@ -1,0 +1,453 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+  <diagram id="51zmUan4mFf6pz3q3UUt" name="InsureTech">
+    <mxGraphModel dx="2025" dy="2542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object placeholders="1" c4Name="InsureTech Prod" c4Type="SystemScopeBoundary" c4Application="Виртуальная машина" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-1">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="450" y="110" width="1140" height="1750" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="core-db" c4Container="Container" c4Technology="PostgreSQL" c4Description="БД используется для хранения тарифов страховых компаний, а также заявок клиентов на страховые продукты" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-2">
+          <mxCell style="shape=cylinder3;size=5.9999511718749545;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="490" y="670" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-69" value="Получение предложений по осаго" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uZ0quFO-MIEIE11IO5jD-3" target="mzhZkuihSD_FcmN-TleF-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="core-app" c4Type="Container" c4Technology="Kotlin, SpringBoot" c4Description="Монолитное приложение:&#xa;• отображает данные о доступных страховых продуктах&#xa;• оформляет новые страховки&#xa;• отображает информацию о купленных страховках" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="490" y="430" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="InsureTech Web" c4Container="Container" c4Technology="JavaScript, React" c4Description="Веб-приложение InsureTech" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-4">
+          <mxCell style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;strokeColor=#118ACD;fillColor=#23A2D9;strokeColor=#118ACD;strokeColor2=#0E7DAD;fontSize=12;fontColor=#ffffff;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="490" y="160" width="240" height="160" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="REST" c4Description="Получения тарифов" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-5">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.208;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="uZ0quFO-MIEIE11IO5jD-3" edge="1">
+            <mxGeometry x="0.0053" width="240" relative="1" as="geometry">
+              <mxPoint x="540" y="330" as="sourcePoint" />
+              <mxPoint x="540" y="420" as="targetPoint" />
+              <Array as="points" />
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="TCP" c4Description="Работа с данными" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-6">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="uZ0quFO-MIEIE11IO5jD-3" target="uZ0quFO-MIEIE11IO5jD-2" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="600" y="600" as="sourcePoint" />
+              <mxPoint x="840" y="600" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Системы партнеров" c4Type="Software System" c4Description="Системы партнеров, интегрирующие страховые услуги в свои продукты" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-7">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="40" y="515" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Системы партнеров" c4Type="Software System" c4Description="Системы партнеров, интегрирующие страховые услуги в свои продукты" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-8">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="50" y="525" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Системы партнёров" c4Type="Software System" c4Description="Системы партнёров, интегрирующие страховые услуги в свои продукты" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-9">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="60" y="535" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="REST" c4Description="Оформление страховок" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-10">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="uZ0quFO-MIEIE11IO5jD-9" target="uZ0quFO-MIEIE11IO5jD-3" edge="1">
+            <mxGeometry x="-0.2075" width="240" relative="1" as="geometry">
+              <mxPoint x="50" y="415" as="sourcePoint" />
+              <mxPoint x="490" y="595" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="370" y="595" />
+                <mxPoint x="370" y="520" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Системы страховых компаний" c4Type="Software System" c4Description="Системы страховых компаний, предоставляющие API для получения актуальных тарифов, андерайтинга и оформления страховых продуктов" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-11">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="1780" y="899.92" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Системы страховых компаний" c4Type="Software System" c4Description="Системы страховых компаний, предоставляющие API для получения актуальных тарифов, андерайтинга и оформления страховых продуктов" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-12">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="1790" y="909.92" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Системы страховых компаний" c4Type="Software System" c4Description="Предоставляют API для получения актуальных тарифов, андерайтинга и оформления страховых продуктов" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-13">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=9;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="1800" y="919.92" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="ins-product-aggregator" c4Type="Container" c4Technology="Kotlin, SpringBoot" c4Description="Сервис для интеграции со страховыми компаниями с целью получения информации по страховым продуктам. Предоставляет единый API для core-app" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-16">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="1300" y="764.92" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="REST / SOAP / GraphQL" c4Description="Получение информации &#xa;по продуктам и тарифам" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-17">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="mzhZkuihSD_FcmN-TleF-77" target="uZ0quFO-MIEIE11IO5jD-11" edge="1">
+            <mxGeometry x="-0.2143" width="240" relative="1" as="geometry">
+              <mxPoint x="1030" y="749.92" as="sourcePoint" />
+              <mxPoint x="1270" y="749.92" as="targetPoint" />
+              <mxPoint as="offset" />
+              <Array as="points">
+                <mxPoint x="1620" y="849.92" />
+                <mxPoint x="1620" y="939.92" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="REST" c4Description="Получение информации &#xa;по продуктам и тарифам" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-18">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="uZ0quFO-MIEIE11IO5jD-3" target="mzhZkuihSD_FcmN-TleF-13" edge="1">
+            <mxGeometry x="-0.0043" width="240" relative="1" as="geometry">
+              <mxPoint x="1190" y="500" as="sourcePoint" />
+              <mxPoint x="950" y="490" as="targetPoint" />
+              <mxPoint as="offset" />
+              <Array as="points">
+                <mxPoint x="940" y="490" />
+                <mxPoint x="940" y="894" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="ins-comp-settlement" c4Type="Container" c4Technology="Kotlin, SpringBoot" c4Description="Сервис для осуществления взаиморасчётов со страховыми компаниями" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-19">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="1220" y="1029.92" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Клиент" c4Type="Person" c4Description="Клиент" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-23">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="510" y="-80" width="200" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" id="uZ0quFO-MIEIE11IO5jD-24">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="uZ0quFO-MIEIE11IO5jD-23" target="uZ0quFO-MIEIE11IO5jD-4" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="650" y="10" as="sourcePoint" />
+              <mxPoint x="890" y="10" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="ins-comp-settlement-db" c4Container="Container" c4Technology="PostgreSQL" c4Description="БД используется для хранения данных об оформленных страховках и условиях взаиморасчётов с клиентами" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-28">
+          <mxCell style="shape=cylinder3;size=8.50981588924617;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="1220" y="1269.92" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="TCP" c4Description="Работа с данными" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-29">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="uZ0quFO-MIEIE11IO5jD-19" target="uZ0quFO-MIEIE11IO5jD-28" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="900" y="1159.92" as="sourcePoint" />
+              <mxPoint x="900" y="1279.92" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="REST / SOAP / GraphQL" c4Description="Передача данных для взаиморасчётов" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-32">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.795;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="uZ0quFO-MIEIE11IO5jD-19" target="uZ0quFO-MIEIE11IO5jD-11" edge="1">
+            <mxGeometry x="-0.2207" width="240" relative="1" as="geometry">
+              <mxPoint x="1320" y="859.92" as="sourcePoint" />
+              <mxPoint x="1510" y="949.92" as="targetPoint" />
+              <mxPoint as="offset" />
+              <Array as="points">
+                <mxPoint x="1620" y="1089.92" />
+                <mxPoint x="1620" y="994.92" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="REST" c4Description="Получение информации &#xa;по продуктам и тарифам" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-33">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="1350" y="1019.92" as="sourcePoint" />
+              <mxPoint x="1149.5" y="879.92" as="targetPoint" />
+              <mxPoint x="-1" as="offset" />
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="REST" c4Description="Получение информации &#xa;об оформленных страховках" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-34">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="uZ0quFO-MIEIE11IO5jD-19" target="mzhZkuihSD_FcmN-TleF-11" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="900" y="829.92" as="sourcePoint" />
+              <mxPoint x="1080" y="829.92" as="targetPoint" />
+              <mxPoint x="-1" as="offset" />
+              <Array as="points">
+                <mxPoint x="1070" y="1089.92" />
+                <mxPoint x="1070" y="1069.92" />
+                <mxPoint x="1041" y="1069.92" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Платёжный сервис" c4Type="Software System" c4Description="Внешний платёжный сервис, через который осуществляется оплата страховок. Деньги уходят на счета страховых компаний" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-36">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="40" y="320" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="HTTP" c4Description="Проведение оплаты &#xa;за страховки" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-37">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="uZ0quFO-MIEIE11IO5jD-3" target="uZ0quFO-MIEIE11IO5jD-36" edge="1">
+            <mxGeometry x="0.1034" width="240" relative="1" as="geometry">
+              <mxPoint x="310" y="605" as="sourcePoint" />
+              <mxPoint x="500" y="530" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="370" y="460" />
+                <mxPoint x="370" y="380" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="HTTP" c4Description="Проведение оплаты &#xa;за страховки (redirect)" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-38">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="uZ0quFO-MIEIE11IO5jD-4" target="uZ0quFO-MIEIE11IO5jD-36" edge="1">
+            <mxGeometry x="0.1034" width="240" relative="1" as="geometry">
+              <mxPoint x="500" y="470" as="sourcePoint" />
+              <mxPoint x="290" y="390" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="140" y="230" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="client-info" c4Type="Container" c4Technology="Kotlin, SpringBoot" c4Description="Сервис для учёта клиентских данных" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="ckVUTfoMV_SZnMC_Z-Nl-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="1010" y="190" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="ins-comp-settlement-db" c4Container="Container" c4Technology="PostgreSQL" c4Description="БД используется для хранения данных клиентов: ФИО, телефон, паспорт и др. Информация необходима для оформления страховок" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="ckVUTfoMV_SZnMC_Z-Nl-2">
+          <mxCell style="shape=cylinder3;size=6.172056136592715;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="1360" y="120" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="TCP" c4Description="Работа с данными" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="ckVUTfoMV_SZnMC_Z-Nl-3">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="ckVUTfoMV_SZnMC_Z-Nl-1" target="ckVUTfoMV_SZnMC_Z-Nl-2" edge="1">
+            <mxGeometry x="-0.1429" width="240" relative="1" as="geometry">
+              <mxPoint x="1040" y="800" as="sourcePoint" />
+              <mxPoint x="1040" y="920" as="targetPoint" />
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="REST" c4Description="Получение/сохранение информации о клиентах" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="ckVUTfoMV_SZnMC_Z-Nl-4">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="uZ0quFO-MIEIE11IO5jD-3" target="ckVUTfoMV_SZnMC_Z-Nl-1" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="740" y="500" as="sourcePoint" />
+              <mxPoint x="920" y="500" as="targetPoint" />
+              <mxPoint x="-1" as="offset" />
+              <Array as="points">
+                <mxPoint x="830" y="450" />
+                <mxPoint x="830" y="280" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="REST" c4Description="Публикация информации об изменении у клиентов" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="ckVUTfoMV_SZnMC_Z-Nl-5">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="uZ0quFO-MIEIE11IO5jD-4" target="mzhZkuihSD_FcmN-TleF-19" edge="1">
+            <mxGeometry x="-0.0106" width="240" relative="1" as="geometry">
+              <mxPoint x="740" y="460" as="sourcePoint" />
+              <mxPoint x="920" y="290" as="targetPoint" />
+              <mxPoint as="offset" />
+              <Array as="points">
+                <mxPoint x="868" y="220" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-10" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;aspect=fixed;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIiBmaWxsPSJub25lIj4mI3hhOzxwYXRoIGQ9Ik0wIDE2QzAgNy4xNjM0NCA3LjE2MzQ0IDAgMTYgMEMyNC44MzY2IDAgMzIgNy4xNjM0NCAzMiAxNkMzMiAyNC44MzY2IDI0LjgzNjYgMzIgMTYgMzJDNy4xNjM0NCAzMiAwIDI0LjgzNjYgMCAxNloiIGZpbGw9IiM1MjgyRkYiLz4mI3hhOzxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTMuOTk5IDIzQzEzLjk5OSAyMi4xNiAxNC41MjIgMjEuNDQgMTUuMjYxIDIxLjE0N0MxNS4yNTMzIDIxLjA5ODQgMTUuMjQ5NyAyMS4wNDkyIDE1LjI1IDIxVjE4LjY0QzE1LjI1IDE4LjQ0IDE1LjMyODggMTguMjQ4IDE1LjQ2OTQgMTguMTA1OEMxNS42MSAxNy45NjM1IDE1LjgwMSAxNy44ODI0IDE2LjAwMSAxNy44OEMxNi4yMDA4IDE3Ljg4MjYgMTYuMzkxNiAxNy45NjM5IDE2LjUzMTkgMTguMTA2MUMxNi42NzIzIDE4LjI0ODQgMTYuNzUxIDE4LjQ0MDIgMTYuNzUxIDE4LjY0VjIxQzE2Ljc1MDMgMjEuMDQ5MyAxNi43NDU3IDIxLjA5ODUgMTYuNzM3IDIxLjE0N0MxNy4xNjc3IDIxLjMxOTQgMTcuNTI1MSAyMS42MzYzIDE3Ljc0NzcgMjIuMDQzM0MxNy45NzAzIDIyLjQ1MDQgMTguMDQ0MyAyMi45MjIyIDE3Ljk1NzEgMjMuMzc3OUMxNy44Njk4IDIzLjgzMzUgMTcuNjI2NiAyNC4yNDQ2IDE3LjI2OTQgMjQuNTQwNkMxNi45MTIxIDI0LjgzNjYgMTYuNDYyOSAyNC45OTkgMTUuOTk5IDI1QzE0Ljg5NSAyNSAxMy45OTkgMjQuMTA3IDEzLjk5OSAyM1pNNy45OTg5OSAyMUM3Ljk5ODk5IDE5Ljg5MyA4Ljg5NTk5IDE5IDkuOTk4OTkgMTlDMTAuMjQyIDE5IDEwLjQ3NyAxOS4wNCAxMC42OTMgMTkuMTJMMTEuODUzIDE3Ljg0QzExLjk4NjIgMTcuNjkzMSAxMi4xNzE1IDE3LjYwMzkgMTIuMzY5NCAxNy41OTE0QzEyLjU2NzMgMTcuNTc4OSAxMi43NjIzIDE3LjY0NCAxMi45MTMgMTcuNzczQzEzLjA2MDcgMTcuOTA3OCAxMy4xNDkzIDE4LjA5NTUgMTMuMTU5NiAxOC4yOTUyQzEzLjE2OTkgMTguNDk1IDEzLjEwMTEgMTguNjkwNyAxMi45NjggMTguODRMMTEuODAzIDIwLjEzM0MxMS45MzIxIDIwLjQwMzUgMTEuOTk4OCAyMC42OTk3IDExLjk5OCAyMC45OTk0QzExLjk5NzIgMjEuMjk5MiAxMS45MjkgMjEuNTk1IDExLjc5ODQgMjEuODY0OEMxMS42Njc5IDIyLjEzNDYgMTEuNDc4MyAyMi4zNzE3IDExLjI0MzcgMjIuNTU4M0MxMS4wMDkxIDIyLjc0NSAxMC43MzU2IDIyLjg3NjUgMTAuNDQzMyAyMi45NDMxQzEwLjE1MSAyMy4wMDk4IDkuODQ3NTIgMjMuMDA5OCA5LjU1NTIzIDIyLjk0MzNDOS4yNjI5MyAyMi44NzY3IDguOTg5MzUgMjIuNzQ1MyA4Ljc1NDczIDIyLjU1ODdDOC41MjAxIDIyLjM3MjEgOC4zMzA0NSAyMi4xMzUxIDguMTk5ODEgMjEuODY1M0M4LjA2OTE2IDIxLjU5NTUgOC4wMDA4NyAyMS4yOTk4IDcuOTk5OTkgMjFINy45OTg5OVpNMTkuOTk5IDIxQzE5Ljk5OSAyMC42NTMgMjAuMDgzIDIwLjMzMyAyMC4yMzUgMjAuMDUzTDE5LjM1MiAxOS4wNjdDMTkuMjI5NyAxOC45MTc2IDE5LjE2OTggMTguNzI2NyAxOS4xODQ3IDE4LjUzNDJDMTkuMTk5NiAxOC4zNDE3IDE5LjI4ODIgMTguMTYyNCAxOS40MzIgMTguMDMzNUMxOS41NzU4IDE3LjkwNDcgMTkuNzYzNyAxNy44MzYzIDE5Ljk1NjcgMTcuODQyNUMyMC4xNDk3IDE3Ljg0ODcgMjAuMzMyOCAxNy45MjkxIDIwLjQ2OCAxOC4wNjdMMjEuMzkgMTkuMDkzQzIxLjY2NDQgMTkuMDA3MyAyMS45NTQxIDE4Ljk4MTcgMjIuMjM5MyAxOS4wMTgxQzIyLjUyNDUgMTkuMDU0NSAyMi43OTg1IDE5LjE1MiAyMy4wNDI2IDE5LjMwNEMyMy4yODY2IDE5LjQ1NTkgMjMuNDk1MSAxOS42NTg3IDIzLjY1MzYgMTkuODk4NUMyMy44MTIyIDIwLjEzODQgMjMuOTE3MiAyMC40MDk2IDIzLjk2MTQgMjAuNjkzN0MyNC4wMDU2IDIwLjk3NzggMjMuOTg4IDIxLjI2OCAyMy45MDk4IDIxLjU0NDdDMjMuODMxNiAyMS44MjE0IDIzLjY5NDcgMjIuMDc3OSAyMy41MDgzIDIyLjI5NjhDMjMuMzIxOSAyMi41MTU4IDIzLjA5MDUgMjIuNjkxOSAyMi44Mjk5IDIyLjgxMzNDMjIuNTY5MiAyMi45MzQ2IDIyLjI4NTUgMjIuOTk4MyAyMS45OTggMjNDMjAuODk0IDIzIDE5Ljk5OCAyMi4xMDcgMTkuOTk4IDIxSDE5Ljk5OVpNMTEuOTk5IDE1QzExLjk5OSAxNC43MzczIDEyLjA1MDggMTQuNDc3MSAxMi4xNTEzIDE0LjIzNDRDMTIuMjUxOSAxMy45OTE3IDEyLjM5OTMgMTMuNzcxMiAxMi41ODUxIDEzLjU4NTRDMTIuNzcxIDEzLjM5OTcgMTIuOTkxNiAxMy4yNTI0IDEzLjIzNDMgMTMuMTUyQzEzLjQ3NzEgMTMuMDUxNSAxMy43MzczIDEyLjk5OTkgMTQgMTNIMTQuMDQ2QzE0LjE2MDkgMTIuNDM1IDE0LjQ2NzggMTEuOTI3MSAxNC45MTQ2IDExLjU2MjZDMTUuMzYxMyAxMS4xOTgxIDE1LjkyMDQgMTAuOTk5MyAxNi40OTcgMTFDMTcuMTU5IDEwLjk5OTcgMTcuNzk0MSAxMS4yNjIxIDE4LjI2MjkgMTEuNzI5NEMxOC43MzE4IDEyLjE5NjggMTguOTk2MSAxMi44MzEgMTguOTk4IDEzLjQ5M0wxOC45OTcgMTMuNTJDMTkuMDggMTMuNTA3IDE5LjE2NCAxMy41MDcgMTkuMjQ5IDEzLjUwN0MyMC4yMTQgMTMuNTA3IDIwLjk5OSAxNC4yOCAyMC45OTkgMTUuMjUzQzIwLjk5ODIgMTUuNzE1NCAyMC44MTQ0IDE2LjE1ODcgMjAuNDg3OSAxNi40ODZDMjAuMTYxMyAxNi44MTM0IDE5LjcxODQgMTYuOTk4MiAxOS4yNTYgMTdIMTRDMTMuNDY5NiAxNyAxMi45NjA5IDE2Ljc4OTMgMTIuNTg1OCAxNi40MTQyQzEyLjIxMDcgMTYuMDM5MSAxMiAxNS41MzA0IDEyIDE1SDExLjk5OVpNMTAuNzA2IDEzLjAyN0w5LjY3Mjk5IDExLjk4N0M5LjYxNTk5IDEyIDkuNTU3OTkgMTIgOS41MDA5OSAxMkM4LjY3Mjk5IDEyIDguMDAwOTkgMTEuMzMzIDguMDAwOTkgMTAuNDkzQzguMDAwOTkgOS42NjcwMSA4LjY3Mjk5IDkuMDAwMDEgOS41MDA5OSA5LjAwMDAxQzkuNzEzNDQgOC45OTkyNSA5LjkyMzYgOS4wNDM3NCAxMC4xMTc1IDkuMTMwNTNDMTAuMzExNCA5LjIxNzMyIDEwLjQ4NDYgOS4zNDQ0MSAxMC42MjU2IDkuNTAzMzVDMTAuNzY2NSA5LjY2MjI5IDEwLjg3MiA5Ljg0OTQzIDEwLjkzNSAxMC4wNTIzQzEwLjk5ODEgMTAuMjU1MiAxMS4wMTcxIDEwLjQ2OTIgMTAuOTkxIDEwLjY4TDEyLjAyMSAxMS43MDdDMTIuMTk1MiAxMS44ODI1IDEyLjI5MjkgMTIuMTE5OCAxMi4yOTI5IDEyLjM2N0MxMi4yOTI5IDEyLjYxNDMgMTIuMTk1MiAxMi44NTE1IDEyLjAyMSAxMy4wMjdDMTEuODQ1NyAxMy4xOTk3IDExLjYwOTUgMTMuMjk2NCAxMS4zNjM1IDEzLjI5NjRDMTEuMTE3NSAxMy4yOTY0IDEwLjg4MTMgMTMuMTk5NyAxMC43MDYgMTMuMDI3Wk0yMCAxMUMyMCAxMC40Njk2IDIwLjIxMDcgOS45NjA4NyAyMC41ODU4IDkuNTg1OEMyMC45NjA5IDkuMjEwNzIgMjEuNDY5NiA5LjAwMDAxIDIyIDkuMDAwMDFDMjIuNTMwNCA5LjAwMDAxIDIzLjAzOTEgOS4yMTA3MiAyMy40MTQyIDkuNTg1OEMyMy43ODkzIDkuOTYwODcgMjQgMTAuNDY5NiAyNCAxMUMyNCAxMS41MzA0IDIzLjc4OTMgMTIuMDM5MSAyMy40MTQyIDEyLjQxNDJDMjMuMDM5MSAxMi43ODkzIDIyLjUzMDQgMTMgMjIgMTNDMjEuNDY5NiAxMyAyMC45NjA5IDEyLjc4OTMgMjAuNTg1OCAxMi40MTQyQzIwLjIxMDcgMTIuMDM5MSAyMCAxMS41MzA0IDIwIDExWiIgZmlsbD0id2hpdGUiLz4mI3hhOzwvc3ZnPg==;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="973.92" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-11" value="Kafka" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=south;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="959.92" width="82" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-12" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;aspect=fixed;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIiBmaWxsPSJub25lIj4mI3hhOzxwYXRoIGQ9Ik0wIDE2QzAgNy4xNjM0NCA3LjE2MzQ0IDAgMTYgMEMyNC44MzY2IDAgMzIgNy4xNjM0NCAzMiAxNkMzMiAyNC44MzY2IDI0LjgzNjYgMzIgMTYgMzJDNy4xNjM0NCAzMiAwIDI0LjgzNjYgMCAxNloiIGZpbGw9IiM1MjgyRkYiLz4mI3hhOzxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTMuOTk5IDIzQzEzLjk5OSAyMi4xNiAxNC41MjIgMjEuNDQgMTUuMjYxIDIxLjE0N0MxNS4yNTMzIDIxLjA5ODQgMTUuMjQ5NyAyMS4wNDkyIDE1LjI1IDIxVjE4LjY0QzE1LjI1IDE4LjQ0IDE1LjMyODggMTguMjQ4IDE1LjQ2OTQgMTguMTA1OEMxNS42MSAxNy45NjM1IDE1LjgwMSAxNy44ODI0IDE2LjAwMSAxNy44OEMxNi4yMDA4IDE3Ljg4MjYgMTYuMzkxNiAxNy45NjM5IDE2LjUzMTkgMTguMTA2MUMxNi42NzIzIDE4LjI0ODQgMTYuNzUxIDE4LjQ0MDIgMTYuNzUxIDE4LjY0VjIxQzE2Ljc1MDMgMjEuMDQ5MyAxNi43NDU3IDIxLjA5ODUgMTYuNzM3IDIxLjE0N0MxNy4xNjc3IDIxLjMxOTQgMTcuNTI1MSAyMS42MzYzIDE3Ljc0NzcgMjIuMDQzM0MxNy45NzAzIDIyLjQ1MDQgMTguMDQ0MyAyMi45MjIyIDE3Ljk1NzEgMjMuMzc3OUMxNy44Njk4IDIzLjgzMzUgMTcuNjI2NiAyNC4yNDQ2IDE3LjI2OTQgMjQuNTQwNkMxNi45MTIxIDI0LjgzNjYgMTYuNDYyOSAyNC45OTkgMTUuOTk5IDI1QzE0Ljg5NSAyNSAxMy45OTkgMjQuMTA3IDEzLjk5OSAyM1pNNy45OTg5OSAyMUM3Ljk5ODk5IDE5Ljg5MyA4Ljg5NTk5IDE5IDkuOTk4OTkgMTlDMTAuMjQyIDE5IDEwLjQ3NyAxOS4wNCAxMC42OTMgMTkuMTJMMTEuODUzIDE3Ljg0QzExLjk4NjIgMTcuNjkzMSAxMi4xNzE1IDE3LjYwMzkgMTIuMzY5NCAxNy41OTE0QzEyLjU2NzMgMTcuNTc4OSAxMi43NjIzIDE3LjY0NCAxMi45MTMgMTcuNzczQzEzLjA2MDcgMTcuOTA3OCAxMy4xNDkzIDE4LjA5NTUgMTMuMTU5NiAxOC4yOTUyQzEzLjE2OTkgMTguNDk1IDEzLjEwMTEgMTguNjkwNyAxMi45NjggMTguODRMMTEuODAzIDIwLjEzM0MxMS45MzIxIDIwLjQwMzUgMTEuOTk4OCAyMC42OTk3IDExLjk5OCAyMC45OTk0QzExLjk5NzIgMjEuMjk5MiAxMS45MjkgMjEuNTk1IDExLjc5ODQgMjEuODY0OEMxMS42Njc5IDIyLjEzNDYgMTEuNDc4MyAyMi4zNzE3IDExLjI0MzcgMjIuNTU4M0MxMS4wMDkxIDIyLjc0NSAxMC43MzU2IDIyLjg3NjUgMTAuNDQzMyAyMi45NDMxQzEwLjE1MSAyMy4wMDk4IDkuODQ3NTIgMjMuMDA5OCA5LjU1NTIzIDIyLjk0MzNDOS4yNjI5MyAyMi44NzY3IDguOTg5MzUgMjIuNzQ1MyA4Ljc1NDczIDIyLjU1ODdDOC41MjAxIDIyLjM3MjEgOC4zMzA0NSAyMi4xMzUxIDguMTk5ODEgMjEuODY1M0M4LjA2OTE2IDIxLjU5NTUgOC4wMDA4NyAyMS4yOTk4IDcuOTk5OTkgMjFINy45OTg5OVpNMTkuOTk5IDIxQzE5Ljk5OSAyMC42NTMgMjAuMDgzIDIwLjMzMyAyMC4yMzUgMjAuMDUzTDE5LjM1MiAxOS4wNjdDMTkuMjI5NyAxOC45MTc2IDE5LjE2OTggMTguNzI2NyAxOS4xODQ3IDE4LjUzNDJDMTkuMTk5NiAxOC4zNDE3IDE5LjI4ODIgMTguMTYyNCAxOS40MzIgMTguMDMzNUMxOS41NzU4IDE3LjkwNDcgMTkuNzYzNyAxNy44MzYzIDE5Ljk1NjcgMTcuODQyNUMyMC4xNDk3IDE3Ljg0ODcgMjAuMzMyOCAxNy45MjkxIDIwLjQ2OCAxOC4wNjdMMjEuMzkgMTkuMDkzQzIxLjY2NDQgMTkuMDA3MyAyMS45NTQxIDE4Ljk4MTcgMjIuMjM5MyAxOS4wMTgxQzIyLjUyNDUgMTkuMDU0NSAyMi43OTg1IDE5LjE1MiAyMy4wNDI2IDE5LjMwNEMyMy4yODY2IDE5LjQ1NTkgMjMuNDk1MSAxOS42NTg3IDIzLjY1MzYgMTkuODk4NUMyMy44MTIyIDIwLjEzODQgMjMuOTE3MiAyMC40MDk2IDIzLjk2MTQgMjAuNjkzN0MyNC4wMDU2IDIwLjk3NzggMjMuOTg4IDIxLjI2OCAyMy45MDk4IDIxLjU0NDdDMjMuODMxNiAyMS44MjE0IDIzLjY5NDcgMjIuMDc3OSAyMy41MDgzIDIyLjI5NjhDMjMuMzIxOSAyMi41MTU4IDIzLjA5MDUgMjIuNjkxOSAyMi44Mjk5IDIyLjgxMzNDMjIuNTY5MiAyMi45MzQ2IDIyLjI4NTUgMjIuOTk4MyAyMS45OTggMjNDMjAuODk0IDIzIDE5Ljk5OCAyMi4xMDcgMTkuOTk4IDIxSDE5Ljk5OVpNMTEuOTk5IDE1QzExLjk5OSAxNC43MzczIDEyLjA1MDggMTQuNDc3MSAxMi4xNTEzIDE0LjIzNDRDMTIuMjUxOSAxMy45OTE3IDEyLjM5OTMgMTMuNzcxMiAxMi41ODUxIDEzLjU4NTRDMTIuNzcxIDEzLjM5OTcgMTIuOTkxNiAxMy4yNTI0IDEzLjIzNDMgMTMuMTUyQzEzLjQ3NzEgMTMuMDUxNSAxMy43MzczIDEyLjk5OTkgMTQgMTNIMTQuMDQ2QzE0LjE2MDkgMTIuNDM1IDE0LjQ2NzggMTEuOTI3MSAxNC45MTQ2IDExLjU2MjZDMTUuMzYxMyAxMS4xOTgxIDE1LjkyMDQgMTAuOTk5MyAxNi40OTcgMTFDMTcuMTU5IDEwLjk5OTcgMTcuNzk0MSAxMS4yNjIxIDE4LjI2MjkgMTEuNzI5NEMxOC43MzE4IDEyLjE5NjggMTguOTk2MSAxMi44MzEgMTguOTk4IDEzLjQ5M0wxOC45OTcgMTMuNTJDMTkuMDggMTMuNTA3IDE5LjE2NCAxMy41MDcgMTkuMjQ5IDEzLjUwN0MyMC4yMTQgMTMuNTA3IDIwLjk5OSAxNC4yOCAyMC45OTkgMTUuMjUzQzIwLjk5ODIgMTUuNzE1NCAyMC44MTQ0IDE2LjE1ODcgMjAuNDg3OSAxNi40ODZDMjAuMTYxMyAxNi44MTM0IDE5LjcxODQgMTYuOTk4MiAxOS4yNTYgMTdIMTRDMTMuNDY5NiAxNyAxMi45NjA5IDE2Ljc4OTMgMTIuNTg1OCAxNi40MTQyQzEyLjIxMDcgMTYuMDM5MSAxMiAxNS41MzA0IDEyIDE1SDExLjk5OVpNMTAuNzA2IDEzLjAyN0w5LjY3Mjk5IDExLjk4N0M5LjYxNTk5IDEyIDkuNTU3OTkgMTIgOS41MDA5OSAxMkM4LjY3Mjk5IDEyIDguMDAwOTkgMTEuMzMzIDguMDAwOTkgMTAuNDkzQzguMDAwOTkgOS42NjcwMSA4LjY3Mjk5IDkuMDAwMDEgOS41MDA5OSA5LjAwMDAxQzkuNzEzNDQgOC45OTkyNSA5LjkyMzYgOS4wNDM3NCAxMC4xMTc1IDkuMTMwNTNDMTAuMzExNCA5LjIxNzMyIDEwLjQ4NDYgOS4zNDQ0MSAxMC42MjU2IDkuNTAzMzVDMTAuNzY2NSA5LjY2MjI5IDEwLjg3MiA5Ljg0OTQzIDEwLjkzNSAxMC4wNTIzQzEwLjk5ODEgMTAuMjU1MiAxMS4wMTcxIDEwLjQ2OTIgMTAuOTkxIDEwLjY4TDEyLjAyMSAxMS43MDdDMTIuMTk1MiAxMS44ODI1IDEyLjI5MjkgMTIuMTE5OCAxMi4yOTI5IDEyLjM2N0MxMi4yOTI5IDEyLjYxNDMgMTIuMTk1MiAxMi44NTE1IDEyLjAyMSAxMy4wMjdDMTEuODQ1NyAxMy4xOTk3IDExLjYwOTUgMTMuMjk2NCAxMS4zNjM1IDEzLjI5NjRDMTEuMTE3NSAxMy4yOTY0IDEwLjg4MTMgMTMuMTk5NyAxMC43MDYgMTMuMDI3Wk0yMCAxMUMyMCAxMC40Njk2IDIwLjIxMDcgOS45NjA4NyAyMC41ODU4IDkuNTg1OEMyMC45NjA5IDkuMjEwNzIgMjEuNDY5NiA5LjAwMDAxIDIyIDkuMDAwMDFDMjIuNTMwNCA5LjAwMDAxIDIzLjAzOTEgOS4yMTA3MiAyMy40MTQyIDkuNTg1OEMyMy43ODkzIDkuOTYwODcgMjQgMTAuNDY5NiAyNCAxMUMyNCAxMS41MzA0IDIzLjc4OTMgMTIuMDM5MSAyMy40MTQyIDEyLjQxNDJDMjMuMDM5MSAxMi43ODkzIDIyLjUzMDQgMTMgMjIgMTNDMjEuNDY5NiAxMyAyMC45NjA5IDEyLjc4OTMgMjAuNTg1OCAxMi40MTQyQzIwLjIxMDcgMTIuMDM5MSAyMCAxMS41MzA0IDIwIDExWiIgZmlsbD0id2hpdGUiLz4mI3hhOzwvc3ZnPg==;" vertex="1" parent="1">
+          <mxGeometry x="1148" y="833.92" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-13" value="Kafka" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=south;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="819.92" width="82" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-14" value="Публикация информации об&amp;nbsp;&lt;div&gt;изменении в продуктах и тарифах&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uZ0quFO-MIEIE11IO5jD-16" target="mzhZkuihSD_FcmN-TleF-13">
+          <mxGeometry x="-0.0746" y="30" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1270" y="850" />
+              <mxPoint x="1270" y="850" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-17" value="Публикация информации об оформленных страховках&lt;div&gt;ОСАГО и страхование жизни&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uZ0quFO-MIEIE11IO5jD-3" target="mzhZkuihSD_FcmN-TleF-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-18" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;aspect=fixed;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIiBmaWxsPSJub25lIj4mI3hhOzxwYXRoIGQ9Ik0wIDE2QzAgNy4xNjM0NCA3LjE2MzQ0IDAgMTYgMEMyNC44MzY2IDAgMzIgNy4xNjM0NCAzMiAxNkMzMiAyNC44MzY2IDI0LjgzNjYgMzIgMTYgMzJDNy4xNjM0NCAzMiAwIDI0LjgzNjYgMCAxNloiIGZpbGw9IiM1MjgyRkYiLz4mI3hhOzxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTMuOTk5IDIzQzEzLjk5OSAyMi4xNiAxNC41MjIgMjEuNDQgMTUuMjYxIDIxLjE0N0MxNS4yNTMzIDIxLjA5ODQgMTUuMjQ5NyAyMS4wNDkyIDE1LjI1IDIxVjE4LjY0QzE1LjI1IDE4LjQ0IDE1LjMyODggMTguMjQ4IDE1LjQ2OTQgMTguMTA1OEMxNS42MSAxNy45NjM1IDE1LjgwMSAxNy44ODI0IDE2LjAwMSAxNy44OEMxNi4yMDA4IDE3Ljg4MjYgMTYuMzkxNiAxNy45NjM5IDE2LjUzMTkgMTguMTA2MUMxNi42NzIzIDE4LjI0ODQgMTYuNzUxIDE4LjQ0MDIgMTYuNzUxIDE4LjY0VjIxQzE2Ljc1MDMgMjEuMDQ5MyAxNi43NDU3IDIxLjA5ODUgMTYuNzM3IDIxLjE0N0MxNy4xNjc3IDIxLjMxOTQgMTcuNTI1MSAyMS42MzYzIDE3Ljc0NzcgMjIuMDQzM0MxNy45NzAzIDIyLjQ1MDQgMTguMDQ0MyAyMi45MjIyIDE3Ljk1NzEgMjMuMzc3OUMxNy44Njk4IDIzLjgzMzUgMTcuNjI2NiAyNC4yNDQ2IDE3LjI2OTQgMjQuNTQwNkMxNi45MTIxIDI0LjgzNjYgMTYuNDYyOSAyNC45OTkgMTUuOTk5IDI1QzE0Ljg5NSAyNSAxMy45OTkgMjQuMTA3IDEzLjk5OSAyM1pNNy45OTg5OSAyMUM3Ljk5ODk5IDE5Ljg5MyA4Ljg5NTk5IDE5IDkuOTk4OTkgMTlDMTAuMjQyIDE5IDEwLjQ3NyAxOS4wNCAxMC42OTMgMTkuMTJMMTEuODUzIDE3Ljg0QzExLjk4NjIgMTcuNjkzMSAxMi4xNzE1IDE3LjYwMzkgMTIuMzY5NCAxNy41OTE0QzEyLjU2NzMgMTcuNTc4OSAxMi43NjIzIDE3LjY0NCAxMi45MTMgMTcuNzczQzEzLjA2MDcgMTcuOTA3OCAxMy4xNDkzIDE4LjA5NTUgMTMuMTU5NiAxOC4yOTUyQzEzLjE2OTkgMTguNDk1IDEzLjEwMTEgMTguNjkwNyAxMi45NjggMTguODRMMTEuODAzIDIwLjEzM0MxMS45MzIxIDIwLjQwMzUgMTEuOTk4OCAyMC42OTk3IDExLjk5OCAyMC45OTk0QzExLjk5NzIgMjEuMjk5MiAxMS45MjkgMjEuNTk1IDExLjc5ODQgMjEuODY0OEMxMS42Njc5IDIyLjEzNDYgMTEuNDc4MyAyMi4zNzE3IDExLjI0MzcgMjIuNTU4M0MxMS4wMDkxIDIyLjc0NSAxMC43MzU2IDIyLjg3NjUgMTAuNDQzMyAyMi45NDMxQzEwLjE1MSAyMy4wMDk4IDkuODQ3NTIgMjMuMDA5OCA5LjU1NTIzIDIyLjk0MzNDOS4yNjI5MyAyMi44NzY3IDguOTg5MzUgMjIuNzQ1MyA4Ljc1NDczIDIyLjU1ODdDOC41MjAxIDIyLjM3MjEgOC4zMzA0NSAyMi4xMzUxIDguMTk5ODEgMjEuODY1M0M4LjA2OTE2IDIxLjU5NTUgOC4wMDA4NyAyMS4yOTk4IDcuOTk5OTkgMjFINy45OTg5OVpNMTkuOTk5IDIxQzE5Ljk5OSAyMC42NTMgMjAuMDgzIDIwLjMzMyAyMC4yMzUgMjAuMDUzTDE5LjM1MiAxOS4wNjdDMTkuMjI5NyAxOC45MTc2IDE5LjE2OTggMTguNzI2NyAxOS4xODQ3IDE4LjUzNDJDMTkuMTk5NiAxOC4zNDE3IDE5LjI4ODIgMTguMTYyNCAxOS40MzIgMTguMDMzNUMxOS41NzU4IDE3LjkwNDcgMTkuNzYzNyAxNy44MzYzIDE5Ljk1NjcgMTcuODQyNUMyMC4xNDk3IDE3Ljg0ODcgMjAuMzMyOCAxNy45MjkxIDIwLjQ2OCAxOC4wNjdMMjEuMzkgMTkuMDkzQzIxLjY2NDQgMTkuMDA3MyAyMS45NTQxIDE4Ljk4MTcgMjIuMjM5MyAxOS4wMTgxQzIyLjUyNDUgMTkuMDU0NSAyMi43OTg1IDE5LjE1MiAyMy4wNDI2IDE5LjMwNEMyMy4yODY2IDE5LjQ1NTkgMjMuNDk1MSAxOS42NTg3IDIzLjY1MzYgMTkuODk4NUMyMy44MTIyIDIwLjEzODQgMjMuOTE3MiAyMC40MDk2IDIzLjk2MTQgMjAuNjkzN0MyNC4wMDU2IDIwLjk3NzggMjMuOTg4IDIxLjI2OCAyMy45MDk4IDIxLjU0NDdDMjMuODMxNiAyMS44MjE0IDIzLjY5NDcgMjIuMDc3OSAyMy41MDgzIDIyLjI5NjhDMjMuMzIxOSAyMi41MTU4IDIzLjA5MDUgMjIuNjkxOSAyMi44Mjk5IDIyLjgxMzNDMjIuNTY5MiAyMi45MzQ2IDIyLjI4NTUgMjIuOTk4MyAyMS45OTggMjNDMjAuODk0IDIzIDE5Ljk5OCAyMi4xMDcgMTkuOTk4IDIxSDE5Ljk5OVpNMTEuOTk5IDE1QzExLjk5OSAxNC43MzczIDEyLjA1MDggMTQuNDc3MSAxMi4xNTEzIDE0LjIzNDRDMTIuMjUxOSAxMy45OTE3IDEyLjM5OTMgMTMuNzcxMiAxMi41ODUxIDEzLjU4NTRDMTIuNzcxIDEzLjM5OTcgMTIuOTkxNiAxMy4yNTI0IDEzLjIzNDMgMTMuMTUyQzEzLjQ3NzEgMTMuMDUxNSAxMy43MzczIDEyLjk5OTkgMTQgMTNIMTQuMDQ2QzE0LjE2MDkgMTIuNDM1IDE0LjQ2NzggMTEuOTI3MSAxNC45MTQ2IDExLjU2MjZDMTUuMzYxMyAxMS4xOTgxIDE1LjkyMDQgMTAuOTk5MyAxNi40OTcgMTFDMTcuMTU5IDEwLjk5OTcgMTcuNzk0MSAxMS4yNjIxIDE4LjI2MjkgMTEuNzI5NEMxOC43MzE4IDEyLjE5NjggMTguOTk2MSAxMi44MzEgMTguOTk4IDEzLjQ5M0wxOC45OTcgMTMuNTJDMTkuMDggMTMuNTA3IDE5LjE2NCAxMy41MDcgMTkuMjQ5IDEzLjUwN0MyMC4yMTQgMTMuNTA3IDIwLjk5OSAxNC4yOCAyMC45OTkgMTUuMjUzQzIwLjk5ODIgMTUuNzE1NCAyMC44MTQ0IDE2LjE1ODcgMjAuNDg3OSAxNi40ODZDMjAuMTYxMyAxNi44MTM0IDE5LjcxODQgMTYuOTk4MiAxOS4yNTYgMTdIMTRDMTMuNDY5NiAxNyAxMi45NjA5IDE2Ljc4OTMgMTIuNTg1OCAxNi40MTQyQzEyLjIxMDcgMTYuMDM5MSAxMiAxNS41MzA0IDEyIDE1SDExLjk5OVpNMTAuNzA2IDEzLjAyN0w5LjY3Mjk5IDExLjk4N0M5LjYxNTk5IDEyIDkuNTU3OTkgMTIgOS41MDA5OSAxMkM4LjY3Mjk5IDEyIDguMDAwOTkgMTEuMzMzIDguMDAwOTkgMTAuNDkzQzguMDAwOTkgOS42NjcwMSA4LjY3Mjk5IDkuMDAwMDEgOS41MDA5OSA5LjAwMDAxQzkuNzEzNDQgOC45OTkyNSA5LjkyMzYgOS4wNDM3NCAxMC4xMTc1IDkuMTMwNTNDMTAuMzExNCA5LjIxNzMyIDEwLjQ4NDYgOS4zNDQ0MSAxMC42MjU2IDkuNTAzMzVDMTAuNzY2NSA5LjY2MjI5IDEwLjg3MiA5Ljg0OTQzIDEwLjkzNSAxMC4wNTIzQzEwLjk5ODEgMTAuMjU1MiAxMS4wMTcxIDEwLjQ2OTIgMTAuOTkxIDEwLjY4TDEyLjAyMSAxMS43MDdDMTIuMTk1MiAxMS44ODI1IDEyLjI5MjkgMTIuMTE5OCAxMi4yOTI5IDEyLjM2N0MxMi4yOTI5IDEyLjYxNDMgMTIuMTk1MiAxMi44NTE1IDEyLjAyMSAxMy4wMjdDMTEuODQ1NyAxMy4xOTk3IDExLjYwOTUgMTMuMjk2NCAxMS4zNjM1IDEzLjI5NjRDMTEuMTE3NSAxMy4yOTY0IDEwLjg4MTMgMTMuMTk5NyAxMC43MDYgMTMuMDI3Wk0yMCAxMUMyMCAxMC40Njk2IDIwLjIxMDcgOS45NjA4NyAyMC41ODU4IDkuNTg1OEMyMC45NjA5IDkuMjEwNzIgMjEuNDY5NiA5LjAwMDAxIDIyIDkuMDAwMDFDMjIuNTMwNCA5LjAwMDAxIDIzLjAzOTEgOS4yMTA3MiAyMy40MTQyIDkuNTg1OEMyMy43ODkzIDkuOTYwODcgMjQgMTAuNDY5NiAyNCAxMUMyNCAxMS41MzA0IDIzLjc4OTMgMTIuMDM5MSAyMy40MTQyIDEyLjQxNDJDMjMuMDM5MSAxMi43ODkzIDIyLjUzMDQgMTMgMjIgMTNDMjEuNDY5NiAxMyAyMC45NjA5IDEyLjc4OTMgMjAuNTg1OCAxMi40MTQyQzIwLjIxMDcgMTIuMDM5MSAyMCAxMS41MzA0IDIwIDExWiIgZmlsbD0id2hpdGUiLz4mI3hhOzwvc3ZnPg==;" vertex="1" parent="1">
+          <mxGeometry x="877" y="154" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-19" value="Kafka" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=south;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="827" y="140" width="82" height="60" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Type="Relationship" c4Technology="REST" c4Description="Получение информации о клиентах" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="mzhZkuihSD_FcmN-TleF-20">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.986;exitY=0.669;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.007;entryY=0.595;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uZ0quFO-MIEIE11IO5jD-4" target="ckVUTfoMV_SZnMC_Z-Nl-1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="740" y="230" as="sourcePoint" />
+              <mxPoint x="878" y="210" as="targetPoint" />
+              <mxPoint x="-1" as="offset" />
+              <Array as="points">
+                <mxPoint x="727" y="260" />
+                <mxPoint x="920" y="260" />
+                <mxPoint x="920" y="250" />
+                <mxPoint x="1008" y="250" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-21" value="Получение информации об изменении клиентов" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.469;exitY=-0.032;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ckVUTfoMV_SZnMC_Z-Nl-1" target="mzhZkuihSD_FcmN-TleF-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1123" y="150" />
+              <mxPoint x="909" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-24" value="" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.674;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uZ0quFO-MIEIE11IO5jD-4" target="mzhZkuihSD_FcmN-TleF-7">
+          <mxGeometry x="-0.0025" width="240" relative="1" as="geometry">
+            <mxPoint x="652" y="320" as="sourcePoint" />
+            <mxPoint x="652" y="430" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mzhZkuihSD_FcmN-TleF-7" target="uZ0quFO-MIEIE11IO5jD-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-7" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;aspect=fixed;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIiBmaWxsPSJub25lIj4mI3hhOzxwYXRoIGQ9Ik0wIDE2QzAgNy4xNjM0NCA3LjE2MzQ0IDAgMTYgMEMyNC44MzY2IDAgMzIgNy4xNjM0NCAzMiAxNkMzMiAyNC44MzY2IDI0LjgzNjYgMzIgMTYgMzJDNy4xNjM0NCAzMiAwIDI0LjgzNjYgMCAxNloiIGZpbGw9IiM1MjgyRkYiLz4mI3hhOzxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTMuOTk5IDIzQzEzLjk5OSAyMi4xNiAxNC41MjIgMjEuNDQgMTUuMjYxIDIxLjE0N0MxNS4yNTMzIDIxLjA5ODQgMTUuMjQ5NyAyMS4wNDkyIDE1LjI1IDIxVjE4LjY0QzE1LjI1IDE4LjQ0IDE1LjMyODggMTguMjQ4IDE1LjQ2OTQgMTguMTA1OEMxNS42MSAxNy45NjM1IDE1LjgwMSAxNy44ODI0IDE2LjAwMSAxNy44OEMxNi4yMDA4IDE3Ljg4MjYgMTYuMzkxNiAxNy45NjM5IDE2LjUzMTkgMTguMTA2MUMxNi42NzIzIDE4LjI0ODQgMTYuNzUxIDE4LjQ0MDIgMTYuNzUxIDE4LjY0VjIxQzE2Ljc1MDMgMjEuMDQ5MyAxNi43NDU3IDIxLjA5ODUgMTYuNzM3IDIxLjE0N0MxNy4xNjc3IDIxLjMxOTQgMTcuNTI1MSAyMS42MzYzIDE3Ljc0NzcgMjIuMDQzM0MxNy45NzAzIDIyLjQ1MDQgMTguMDQ0MyAyMi45MjIyIDE3Ljk1NzEgMjMuMzc3OUMxNy44Njk4IDIzLjgzMzUgMTcuNjI2NiAyNC4yNDQ2IDE3LjI2OTQgMjQuNTQwNkMxNi45MTIxIDI0LjgzNjYgMTYuNDYyOSAyNC45OTkgMTUuOTk5IDI1QzE0Ljg5NSAyNSAxMy45OTkgMjQuMTA3IDEzLjk5OSAyM1pNNy45OTg5OSAyMUM3Ljk5ODk5IDE5Ljg5MyA4Ljg5NTk5IDE5IDkuOTk4OTkgMTlDMTAuMjQyIDE5IDEwLjQ3NyAxOS4wNCAxMC42OTMgMTkuMTJMMTEuODUzIDE3Ljg0QzExLjk4NjIgMTcuNjkzMSAxMi4xNzE1IDE3LjYwMzkgMTIuMzY5NCAxNy41OTE0QzEyLjU2NzMgMTcuNTc4OSAxMi43NjIzIDE3LjY0NCAxMi45MTMgMTcuNzczQzEzLjA2MDcgMTcuOTA3OCAxMy4xNDkzIDE4LjA5NTUgMTMuMTU5NiAxOC4yOTUyQzEzLjE2OTkgMTguNDk1IDEzLjEwMTEgMTguNjkwNyAxMi45NjggMTguODRMMTEuODAzIDIwLjEzM0MxMS45MzIxIDIwLjQwMzUgMTEuOTk4OCAyMC42OTk3IDExLjk5OCAyMC45OTk0QzExLjk5NzIgMjEuMjk5MiAxMS45MjkgMjEuNTk1IDExLjc5ODQgMjEuODY0OEMxMS42Njc5IDIyLjEzNDYgMTEuNDc4MyAyMi4zNzE3IDExLjI0MzcgMjIuNTU4M0MxMS4wMDkxIDIyLjc0NSAxMC43MzU2IDIyLjg3NjUgMTAuNDQzMyAyMi45NDMxQzEwLjE1MSAyMy4wMDk4IDkuODQ3NTIgMjMuMDA5OCA5LjU1NTIzIDIyLjk0MzNDOS4yNjI5MyAyMi44NzY3IDguOTg5MzUgMjIuNzQ1MyA4Ljc1NDczIDIyLjU1ODdDOC41MjAxIDIyLjM3MjEgOC4zMzA0NSAyMi4xMzUxIDguMTk5ODEgMjEuODY1M0M4LjA2OTE2IDIxLjU5NTUgOC4wMDA4NyAyMS4yOTk4IDcuOTk5OTkgMjFINy45OTg5OVpNMTkuOTk5IDIxQzE5Ljk5OSAyMC42NTMgMjAuMDgzIDIwLjMzMyAyMC4yMzUgMjAuMDUzTDE5LjM1MiAxOS4wNjdDMTkuMjI5NyAxOC45MTc2IDE5LjE2OTggMTguNzI2NyAxOS4xODQ3IDE4LjUzNDJDMTkuMTk5NiAxOC4zNDE3IDE5LjI4ODIgMTguMTYyNCAxOS40MzIgMTguMDMzNUMxOS41NzU4IDE3LjkwNDcgMTkuNzYzNyAxNy44MzYzIDE5Ljk1NjcgMTcuODQyNUMyMC4xNDk3IDE3Ljg0ODcgMjAuMzMyOCAxNy45MjkxIDIwLjQ2OCAxOC4wNjdMMjEuMzkgMTkuMDkzQzIxLjY2NDQgMTkuMDA3MyAyMS45NTQxIDE4Ljk4MTcgMjIuMjM5MyAxOS4wMTgxQzIyLjUyNDUgMTkuMDU0NSAyMi43OTg1IDE5LjE1MiAyMy4wNDI2IDE5LjMwNEMyMy4yODY2IDE5LjQ1NTkgMjMuNDk1MSAxOS42NTg3IDIzLjY1MzYgMTkuODk4NUMyMy44MTIyIDIwLjEzODQgMjMuOTE3MiAyMC40MDk2IDIzLjk2MTQgMjAuNjkzN0MyNC4wMDU2IDIwLjk3NzggMjMuOTg4IDIxLjI2OCAyMy45MDk4IDIxLjU0NDdDMjMuODMxNiAyMS44MjE0IDIzLjY5NDcgMjIuMDc3OSAyMy41MDgzIDIyLjI5NjhDMjMuMzIxOSAyMi41MTU4IDIzLjA5MDUgMjIuNjkxOSAyMi44Mjk5IDIyLjgxMzNDMjIuNTY5MiAyMi45MzQ2IDIyLjI4NTUgMjIuOTk4MyAyMS45OTggMjNDMjAuODk0IDIzIDE5Ljk5OCAyMi4xMDcgMTkuOTk4IDIxSDE5Ljk5OVpNMTEuOTk5IDE1QzExLjk5OSAxNC43MzczIDEyLjA1MDggMTQuNDc3MSAxMi4xNTEzIDE0LjIzNDRDMTIuMjUxOSAxMy45OTE3IDEyLjM5OTMgMTMuNzcxMiAxMi41ODUxIDEzLjU4NTRDMTIuNzcxIDEzLjM5OTcgMTIuOTkxNiAxMy4yNTI0IDEzLjIzNDMgMTMuMTUyQzEzLjQ3NzEgMTMuMDUxNSAxMy43MzczIDEyLjk5OTkgMTQgMTNIMTQuMDQ2QzE0LjE2MDkgMTIuNDM1IDE0LjQ2NzggMTEuOTI3MSAxNC45MTQ2IDExLjU2MjZDMTUuMzYxMyAxMS4xOTgxIDE1LjkyMDQgMTAuOTk5MyAxNi40OTcgMTFDMTcuMTU5IDEwLjk5OTcgMTcuNzk0MSAxMS4yNjIxIDE4LjI2MjkgMTEuNzI5NEMxOC43MzE4IDEyLjE5NjggMTguOTk2MSAxMi44MzEgMTguOTk4IDEzLjQ5M0wxOC45OTcgMTMuNTJDMTkuMDggMTMuNTA3IDE5LjE2NCAxMy41MDcgMTkuMjQ5IDEzLjUwN0MyMC4yMTQgMTMuNTA3IDIwLjk5OSAxNC4yOCAyMC45OTkgMTUuMjUzQzIwLjk5ODIgMTUuNzE1NCAyMC44MTQ0IDE2LjE1ODcgMjAuNDg3OSAxNi40ODZDMjAuMTYxMyAxNi44MTM0IDE5LjcxODQgMTYuOTk4MiAxOS4yNTYgMTdIMTRDMTMuNDY5NiAxNyAxMi45NjA5IDE2Ljc4OTMgMTIuNTg1OCAxNi40MTQyQzEyLjIxMDcgMTYuMDM5MSAxMiAxNS41MzA0IDEyIDE1SDExLjk5OVpNMTAuNzA2IDEzLjAyN0w5LjY3Mjk5IDExLjk4N0M5LjYxNTk5IDEyIDkuNTU3OTkgMTIgOS41MDA5OSAxMkM4LjY3Mjk5IDEyIDguMDAwOTkgMTEuMzMzIDguMDAwOTkgMTAuNDkzQzguMDAwOTkgOS42NjcwMSA4LjY3Mjk5IDkuMDAwMDEgOS41MDA5OSA5LjAwMDAxQzkuNzEzNDQgOC45OTkyNSA5LjkyMzYgOS4wNDM3NCAxMC4xMTc1IDkuMTMwNTNDMTAuMzExNCA5LjIxNzMyIDEwLjQ4NDYgOS4zNDQ0MSAxMC42MjU2IDkuNTAzMzVDMTAuNzY2NSA5LjY2MjI5IDEwLjg3MiA5Ljg0OTQzIDEwLjkzNSAxMC4wNTIzQzEwLjk5ODEgMTAuMjU1MiAxMS4wMTcxIDEwLjQ2OTIgMTAuOTkxIDEwLjY4TDEyLjAyMSAxMS43MDdDMTIuMTk1MiAxMS44ODI1IDEyLjI5MjkgMTIuMTE5OCAxMi4yOTI5IDEyLjM2N0MxMi4yOTI5IDEyLjYxNDMgMTIuMTk1MiAxMi44NTE1IDEyLjAyMSAxMy4wMjdDMTEuODQ1NyAxMy4xOTk3IDExLjYwOTUgMTMuMjk2NCAxMS4zNjM1IDEzLjI5NjRDMTEuMTE3NSAxMy4yOTY0IDEwLjg4MTMgMTMuMTk5NyAxMC43MDYgMTMuMDI3Wk0yMCAxMUMyMCAxMC40Njk2IDIwLjIxMDcgOS45NjA4NyAyMC41ODU4IDkuNTg1OEMyMC45NjA5IDkuMjEwNzIgMjEuNDY5NiA5LjAwMDAxIDIyIDkuMDAwMDFDMjIuNTMwNCA5LjAwMDAxIDIzLjAzOTEgOS4yMTA3MiAyMy40MTQyIDkuNTg1OEMyMy43ODkzIDkuOTYwODcgMjQgMTAuNDY5NiAyNCAxMUMyNCAxMS41MzA0IDIzLjc4OTMgMTIuMDM5MSAyMy40MTQyIDEyLjQxNDJDMjMuMDM5MSAxMi43ODkzIDIyLjUzMDQgMTMgMjIgMTNDMjEuNDY5NiAxMyAyMC45NjA5IDEyLjc4OTMgMjAuNTg1OCAxMi40MTQyQzIwLjIxMDcgMTIuMDM5MSAyMCAxMS41MzA0IDIwIDExWiIgZmlsbD0id2hpdGUiLz4mI3hhOzwvc3ZnPg==;" vertex="1" parent="1">
+          <mxGeometry x="640" y="364" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-26" value="Создание заявок на страховки" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="318" width="200" height="30" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="Системы страховых компаний" c4Type="Software System" c4Description="Системы страховых компаний, предоставляющие API для получения актуальных тарифов, андерайтинга и оформления страховых продуктов" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="mzhZkuihSD_FcmN-TleF-51">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="1780" y="504" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Системы страховых компаний" c4Type="Software System" c4Description="Системы страховых компаний, предоставляющие API для получения актуальных тарифов, андерайтинга и оформления страховых продуктов" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="mzhZkuihSD_FcmN-TleF-52">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="1790" y="514" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Системы страховых компаний" c4Type="Software System" c4Description="Предоставляют API для получения актуальных тарифов, андерайтинга и оформления страховых продуктов" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="mzhZkuihSD_FcmN-TleF-53">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=9;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="1800" y="524" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="ins-product-osago" c4Type="Container" c4Technology="Kotlin, SpringBoot" c4Description="Сервис для интеграции со страховыми компаниями с целью получения информации по страховым продуктам. Предоставляет единый API для core-app" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="mzhZkuihSD_FcmN-TleF-54">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="1300" y="320" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="REST / SOAP / GraphQL" c4Description="Получение информации &#xa;по продуктам и тарифам" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="mzhZkuihSD_FcmN-TleF-55">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="mzhZkuihSD_FcmN-TleF-82" target="mzhZkuihSD_FcmN-TleF-51">
+            <mxGeometry x="-0.2143" width="240" relative="1" as="geometry">
+              <mxPoint x="1030" y="354" as="sourcePoint" />
+              <mxPoint x="1270" y="354" as="targetPoint" />
+              <mxPoint as="offset" />
+              <Array as="points">
+                <mxPoint x="1620" y="370" />
+                <mxPoint x="1620" y="544" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="REST" c4Description="Получение информации &#xa;по продуктам и тарифам" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="mzhZkuihSD_FcmN-TleF-60">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.013;exitY=0.317;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+            <mxGeometry x="0.5703" width="240" relative="1" as="geometry">
+              <mxPoint x="1224.12" y="1067.96" as="sourcePoint" />
+              <mxPoint x="1082" y="484" as="targetPoint" />
+              <mxPoint as="offset" />
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-64" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;aspect=fixed;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIiBmaWxsPSJub25lIj4mI3hhOzxwYXRoIGQ9Ik0wIDE2QzAgNy4xNjM0NCA3LjE2MzQ0IDAgMTYgMEMyNC44MzY2IDAgMzIgNy4xNjM0NCAzMiAxNkMzMiAyNC44MzY2IDI0LjgzNjYgMzIgMTYgMzJDNy4xNjM0NCAzMiAwIDI0LjgzNjYgMCAxNloiIGZpbGw9IiM1MjgyRkYiLz4mI3hhOzxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTMuOTk5IDIzQzEzLjk5OSAyMi4xNiAxNC41MjIgMjEuNDQgMTUuMjYxIDIxLjE0N0MxNS4yNTMzIDIxLjA5ODQgMTUuMjQ5NyAyMS4wNDkyIDE1LjI1IDIxVjE4LjY0QzE1LjI1IDE4LjQ0IDE1LjMyODggMTguMjQ4IDE1LjQ2OTQgMTguMTA1OEMxNS42MSAxNy45NjM1IDE1LjgwMSAxNy44ODI0IDE2LjAwMSAxNy44OEMxNi4yMDA4IDE3Ljg4MjYgMTYuMzkxNiAxNy45NjM5IDE2LjUzMTkgMTguMTA2MUMxNi42NzIzIDE4LjI0ODQgMTYuNzUxIDE4LjQ0MDIgMTYuNzUxIDE4LjY0VjIxQzE2Ljc1MDMgMjEuMDQ5MyAxNi43NDU3IDIxLjA5ODUgMTYuNzM3IDIxLjE0N0MxNy4xNjc3IDIxLjMxOTQgMTcuNTI1MSAyMS42MzYzIDE3Ljc0NzcgMjIuMDQzM0MxNy45NzAzIDIyLjQ1MDQgMTguMDQ0MyAyMi45MjIyIDE3Ljk1NzEgMjMuMzc3OUMxNy44Njk4IDIzLjgzMzUgMTcuNjI2NiAyNC4yNDQ2IDE3LjI2OTQgMjQuNTQwNkMxNi45MTIxIDI0LjgzNjYgMTYuNDYyOSAyNC45OTkgMTUuOTk5IDI1QzE0Ljg5NSAyNSAxMy45OTkgMjQuMTA3IDEzLjk5OSAyM1pNNy45OTg5OSAyMUM3Ljk5ODk5IDE5Ljg5MyA4Ljg5NTk5IDE5IDkuOTk4OTkgMTlDMTAuMjQyIDE5IDEwLjQ3NyAxOS4wNCAxMC42OTMgMTkuMTJMMTEuODUzIDE3Ljg0QzExLjk4NjIgMTcuNjkzMSAxMi4xNzE1IDE3LjYwMzkgMTIuMzY5NCAxNy41OTE0QzEyLjU2NzMgMTcuNTc4OSAxMi43NjIzIDE3LjY0NCAxMi45MTMgMTcuNzczQzEzLjA2MDcgMTcuOTA3OCAxMy4xNDkzIDE4LjA5NTUgMTMuMTU5NiAxOC4yOTUyQzEzLjE2OTkgMTguNDk1IDEzLjEwMTEgMTguNjkwNyAxMi45NjggMTguODRMMTEuODAzIDIwLjEzM0MxMS45MzIxIDIwLjQwMzUgMTEuOTk4OCAyMC42OTk3IDExLjk5OCAyMC45OTk0QzExLjk5NzIgMjEuMjk5MiAxMS45MjkgMjEuNTk1IDExLjc5ODQgMjEuODY0OEMxMS42Njc5IDIyLjEzNDYgMTEuNDc4MyAyMi4zNzE3IDExLjI0MzcgMjIuNTU4M0MxMS4wMDkxIDIyLjc0NSAxMC43MzU2IDIyLjg3NjUgMTAuNDQzMyAyMi45NDMxQzEwLjE1MSAyMy4wMDk4IDkuODQ3NTIgMjMuMDA5OCA5LjU1NTIzIDIyLjk0MzNDOS4yNjI5MyAyMi44NzY3IDguOTg5MzUgMjIuNzQ1MyA4Ljc1NDczIDIyLjU1ODdDOC41MjAxIDIyLjM3MjEgOC4zMzA0NSAyMi4xMzUxIDguMTk5ODEgMjEuODY1M0M4LjA2OTE2IDIxLjU5NTUgOC4wMDA4NyAyMS4yOTk4IDcuOTk5OTkgMjFINy45OTg5OVpNMTkuOTk5IDIxQzE5Ljk5OSAyMC42NTMgMjAuMDgzIDIwLjMzMyAyMC4yMzUgMjAuMDUzTDE5LjM1MiAxOS4wNjdDMTkuMjI5NyAxOC45MTc2IDE5LjE2OTggMTguNzI2NyAxOS4xODQ3IDE4LjUzNDJDMTkuMTk5NiAxOC4zNDE3IDE5LjI4ODIgMTguMTYyNCAxOS40MzIgMTguMDMzNUMxOS41NzU4IDE3LjkwNDcgMTkuNzYzNyAxNy44MzYzIDE5Ljk1NjcgMTcuODQyNUMyMC4xNDk3IDE3Ljg0ODcgMjAuMzMyOCAxNy45MjkxIDIwLjQ2OCAxOC4wNjdMMjEuMzkgMTkuMDkzQzIxLjY2NDQgMTkuMDA3MyAyMS45NTQxIDE4Ljk4MTcgMjIuMjM5MyAxOS4wMTgxQzIyLjUyNDUgMTkuMDU0NSAyMi43OTg1IDE5LjE1MiAyMy4wNDI2IDE5LjMwNEMyMy4yODY2IDE5LjQ1NTkgMjMuNDk1MSAxOS42NTg3IDIzLjY1MzYgMTkuODk4NUMyMy44MTIyIDIwLjEzODQgMjMuOTE3MiAyMC40MDk2IDIzLjk2MTQgMjAuNjkzN0MyNC4wMDU2IDIwLjk3NzggMjMuOTg4IDIxLjI2OCAyMy45MDk4IDIxLjU0NDdDMjMuODMxNiAyMS44MjE0IDIzLjY5NDcgMjIuMDc3OSAyMy41MDgzIDIyLjI5NjhDMjMuMzIxOSAyMi41MTU4IDIzLjA5MDUgMjIuNjkxOSAyMi44Mjk5IDIyLjgxMzNDMjIuNTY5MiAyMi45MzQ2IDIyLjI4NTUgMjIuOTk4MyAyMS45OTggMjNDMjAuODk0IDIzIDE5Ljk5OCAyMi4xMDcgMTkuOTk4IDIxSDE5Ljk5OVpNMTEuOTk5IDE1QzExLjk5OSAxNC43MzczIDEyLjA1MDggMTQuNDc3MSAxMi4xNTEzIDE0LjIzNDRDMTIuMjUxOSAxMy45OTE3IDEyLjM5OTMgMTMuNzcxMiAxMi41ODUxIDEzLjU4NTRDMTIuNzcxIDEzLjM5OTcgMTIuOTkxNiAxMy4yNTI0IDEzLjIzNDMgMTMuMTUyQzEzLjQ3NzEgMTMuMDUxNSAxMy43MzczIDEyLjk5OTkgMTQgMTNIMTQuMDQ2QzE0LjE2MDkgMTIuNDM1IDE0LjQ2NzggMTEuOTI3MSAxNC45MTQ2IDExLjU2MjZDMTUuMzYxMyAxMS4xOTgxIDE1LjkyMDQgMTAuOTk5MyAxNi40OTcgMTFDMTcuMTU5IDEwLjk5OTcgMTcuNzk0MSAxMS4yNjIxIDE4LjI2MjkgMTEuNzI5NEMxOC43MzE4IDEyLjE5NjggMTguOTk2MSAxMi44MzEgMTguOTk4IDEzLjQ5M0wxOC45OTcgMTMuNTJDMTkuMDggMTMuNTA3IDE5LjE2NCAxMy41MDcgMTkuMjQ5IDEzLjUwN0MyMC4yMTQgMTMuNTA3IDIwLjk5OSAxNC4yOCAyMC45OTkgMTUuMjUzQzIwLjk5ODIgMTUuNzE1NCAyMC44MTQ0IDE2LjE1ODcgMjAuNDg3OSAxNi40ODZDMjAuMTYxMyAxNi44MTM0IDE5LjcxODQgMTYuOTk4MiAxOS4yNTYgMTdIMTRDMTMuNDY5NiAxNyAxMi45NjA5IDE2Ljc4OTMgMTIuNTg1OCAxNi40MTQyQzEyLjIxMDcgMTYuMDM5MSAxMiAxNS41MzA0IDEyIDE1SDExLjk5OVpNMTAuNzA2IDEzLjAyN0w5LjY3Mjk5IDExLjk4N0M5LjYxNTk5IDEyIDkuNTU3OTkgMTIgOS41MDA5OSAxMkM4LjY3Mjk5IDEyIDguMDAwOTkgMTEuMzMzIDguMDAwOTkgMTAuNDkzQzguMDAwOTkgOS42NjcwMSA4LjY3Mjk5IDkuMDAwMDEgOS41MDA5OSA5LjAwMDAxQzkuNzEzNDQgOC45OTkyNSA5LjkyMzYgOS4wNDM3NCAxMC4xMTc1IDkuMTMwNTNDMTAuMzExNCA5LjIxNzMyIDEwLjQ4NDYgOS4zNDQ0MSAxMC42MjU2IDkuNTAzMzVDMTAuNzY2NSA5LjY2MjI5IDEwLjg3MiA5Ljg0OTQzIDEwLjkzNSAxMC4wNTIzQzEwLjk5ODEgMTAuMjU1MiAxMS4wMTcxIDEwLjQ2OTIgMTAuOTkxIDEwLjY4TDEyLjAyMSAxMS43MDdDMTIuMTk1MiAxMS44ODI1IDEyLjI5MjkgMTIuMTE5OCAxMi4yOTI5IDEyLjM2N0MxMi4yOTI5IDEyLjYxNDMgMTIuMTk1MiAxMi44NTE1IDEyLjAyMSAxMy4wMjdDMTEuODQ1NyAxMy4xOTk3IDExLjYwOTUgMTMuMjk2NCAxMS4zNjM1IDEzLjI5NjRDMTEuMTE3NSAxMy4yOTY0IDEwLjg4MTMgMTMuMTk5NyAxMC43MDYgMTMuMDI3Wk0yMCAxMUMyMCAxMC40Njk2IDIwLjIxMDcgOS45NjA4NyAyMC41ODU4IDkuNTg1OEMyMC45NjA5IDkuMjEwNzIgMjEuNDY5NiA5LjAwMDAxIDIyIDkuMDAwMDFDMjIuNTMwNCA5LjAwMDAxIDIzLjAzOTEgOS4yMTA3MiAyMy40MTQyIDkuNTg1OEMyMy43ODkzIDkuOTYwODcgMjQgMTAuNDY5NiAyNCAxMUMyNCAxMS41MzA0IDIzLjc4OTMgMTIuMDM5MSAyMy40MTQyIDEyLjQxNDJDMjMuMDM5MSAxMi43ODkzIDIyLjUzMDQgMTMgMjIgMTNDMjEuNDY5NiAxMyAyMC45NjA5IDEyLjc4OTMgMjAuNTg1OCAxMi40MTQyQzIwLjIxMDcgMTIuMDM5MSAyMCAxMS41MzA0IDIwIDExWiIgZmlsbD0id2hpdGUiLz4mI3hhOzwvc3ZnPg==;" vertex="1" parent="1">
+          <mxGeometry x="1078" y="438" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-65" value="Kafka" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=south;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="424" width="82" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-66" value="Публикация полученных&lt;div&gt;предложений осаго&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mzhZkuihSD_FcmN-TleF-54" target="mzhZkuihSD_FcmN-TleF-65">
+          <mxGeometry x="0.0039" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1246" y="429" />
+              <mxPoint x="1246" y="390" />
+              <mxPoint x="1151" y="390" />
+              <mxPoint x="1151" y="454" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Type="ins-comp-osago-db" c4Container="Container" c4Technology="PostgreSQL" c4Description="БД сохраняет все полученные предложения по ОСАГО для пользователя" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="mzhZkuihSD_FcmN-TleF-67">
+          <mxCell style="shape=cylinder3;size=6.172056136592715;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="1">
+            <mxGeometry x="1290" y="504" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.536;entryY=0.094;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mzhZkuihSD_FcmN-TleF-54" target="mzhZkuihSD_FcmN-TleF-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-76" value="" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="mzhZkuihSD_FcmN-TleF-54" target="mzhZkuihSD_FcmN-TleF-75">
+          <mxGeometry x="-0.2143" width="240" relative="1" as="geometry">
+            <mxPoint x="1540" y="370" as="sourcePoint" />
+            <mxPoint x="1780" y="544" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-75" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=job" vertex="1" parent="1">
+          <mxGeometry x="1590" y="356" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-78" value="" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="uZ0quFO-MIEIE11IO5jD-16" target="mzhZkuihSD_FcmN-TleF-77">
+          <mxGeometry x="-0.2143" width="240" relative="1" as="geometry">
+            <mxPoint x="1540" y="850" as="sourcePoint" />
+            <mxPoint x="1780" y="940" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-77" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=job" vertex="1" parent="1">
+          <mxGeometry x="1590" y="831.9200000000001" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-79" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=c_role" vertex="1" parent="1">
+          <mxGeometry x="490" y="320" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-83" value="" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="mzhZkuihSD_FcmN-TleF-75" target="mzhZkuihSD_FcmN-TleF-82">
+          <mxGeometry x="-0.2143" width="240" relative="1" as="geometry">
+            <mxPoint x="1620" y="388" as="sourcePoint" />
+            <mxPoint x="1780" y="544" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-82" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=quota" vertex="1" parent="1">
+          <mxGeometry x="1590" y="422" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-87" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=quota" vertex="1" parent="1">
+          <mxGeometry x="1640" y="836.92" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-88" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=deploy" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-89" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=quota" vertex="1" parent="1">
+          <mxGeometry x="440" y="368" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="mzhZkuihSD_FcmN-TleF-90" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=job" vertex="1" parent="1">
+          <mxGeometry x="440" y="272" width="50" height="48" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
